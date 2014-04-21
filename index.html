@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <title>A test webpage</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+	<link rel="stylesheet" href="css/brick-1.0.1.css" type="text/css">
+  </head>
+  <body>
+		<x-layout>
+		<x-appbar>
+			<h1>Weather Testing</h1>
+		</x-appbar>
+		<x-deck id="views">
+		  <x-card selected transition-type="slide-down">
+		  <div class="" id="1">
+			<form id="form">
+			  <input class="text" id="account" type="text" placeholder="Username"><br>
+			  <input class="text" placeholder="Password" id="password" type="password"><br>
+			  <input type="button" value="Log in" id="login">
+			</form>
+		  </div>
+		  </x-card>
+		  <x-card>
+		  <div class="" id="weather">
+			
+		  </div>
+		  </x-card>
+		</x-deck>
+		</x-layout>
+		<script src="js/brick-1.0.1.js"></script>
+		<script src="js/jquery-1.11.0.min.js"></script>
+		<script src="js/monkeecreate-jquery.simpleWeather/jquery.simpleWeather.js"></script>
+		<script src="js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,37 @@
+/*Some animations*/
+.transition-page{
+	transition: opacity 0.3s;
+	transition: visibility 0.3s;
+	visibility: visible;
+	opacity:1;
+	height:auto;
+}
+.transition-page-hidden{
+	transition: visibility 0.3s;
+	transition: opacity 0.3s;
+	visibility: hidden;
+	opacity:0;
+	height: 0;
+}
+
+/*Formatting for the body of the webpage to auto center the page*/
+body{
+	margin:auto;
+	width:75%;
+}
+/*General input tag formatting*/
+input{
+  width:100%;
+  margin-bottom: 2px;
+  text-align:center;
+  color:#BED2E9
+}
+/*Login button formatting*/
+#login{
+  background-color:#66C2CC;
+  transition: all 0.2s;
+}
+#login:hover{
+  background-color:#255C6F;
+  transition: all 0.4s;
+}
