@@ -19,6 +19,9 @@ body{
 	margin:auto;
 	width:75%;
 }
+p{
+	font-family:"Century Gothic";
+}
 /*General input tag formatting*/
 input{
   width:100%;
