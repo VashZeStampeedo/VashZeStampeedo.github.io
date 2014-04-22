@@ -17,7 +17,7 @@
 /*Formatting for the body of the webpage to auto center the page*/
 body{
 	margin:auto;
-	width:98%;
+	/*width:75%;*/
 }
 p{
 	font-family:"Century Gothic";
